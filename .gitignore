@@ -1,0 +1,22 @@
+# Data files — never commit these
+*.csv
+*.parquet
+*.json
+banking_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+
+# Databricks
+.databricks/
+*.dbc
+
+# Secrets and credentials — critical
+*.pem
+*.key
+secrets/
+config/local_*.py
